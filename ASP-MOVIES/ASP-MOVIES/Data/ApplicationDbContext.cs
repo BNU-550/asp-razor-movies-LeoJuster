@@ -13,6 +13,6 @@ namespace ASP_MOVIES.Data
             : base(options)
         {
         }
-        public DbSet<ASP_MOVIES.Models.Movies> Movies { get; set; }
+        public DbSet<Movies> Movies { get; set; }
     }
 }

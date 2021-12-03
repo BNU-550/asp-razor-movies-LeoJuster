@@ -14,6 +14,7 @@ namespace ASP_MOVIES.Models
     {
         [Key]
         public int ID { get; set; }
+        [StringLength(60)]
         
         public string Title { get; set; }
        
